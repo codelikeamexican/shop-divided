@@ -36,7 +36,7 @@ body{
     margin:0;
 }
 
-.sticky-img img{
+.sticky-img{
     position: sticky;
     width: 50%;
 
