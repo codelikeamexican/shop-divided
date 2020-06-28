@@ -2,13 +2,14 @@ body{
   margin: 0;
   font-family: "Open Sans",sans-serif;
   font-size: 15px;
+
 }
 
 .principal{
     display: grid;
     grid-template-columns: 80% 20%;
-    height: 100vh;
-
+    height: 180vh;
+    position: relative;
 }
 .first{
     background-color:#ebada9;
@@ -39,7 +40,7 @@ body{
 .sticky-img{
     position: sticky;
     width: 50%;
-
+    bottom: 0;
 }
 
 .products{
@@ -56,4 +57,35 @@ body{
 .first-row__item img, .second-row__item img{
     width: 450px;
     margin: 20px 10px;
+}
+
+footer{
+    margin:0 !important;
+    padding:0;
+    background-color: darksalmon;
+    height: 70vh;
+
+}
+
+footer h1{
+    margin: 0;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+.locations{
+    margin-left: 150px;
+    display: flex;
+    align-content: center;
+}
+
+.locations--item{
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.locations--item a{
+    color: black;
+    text-decoration-line: none;
 }
