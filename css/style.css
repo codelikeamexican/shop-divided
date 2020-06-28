@@ -7,6 +7,7 @@ body{
 .principal{
     display: grid;
     grid-template-columns: 80% auto;
+    height: 100vh;
 }
 .first{
     background-color:#ebada9;
@@ -32,4 +33,9 @@ body{
 }
 .second__title p{
     margin:0;
+}
+
+.sticky-img img{
+    position: sticky;
+    width: 50%;
 }
