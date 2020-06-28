@@ -6,8 +6,9 @@ body{
 
 .principal{
     display: grid;
-    grid-template-columns: 80% auto;
+    grid-template-columns: 80% 20%;
     height: 100vh;
+
 }
 .first{
     background-color:#ebada9;
@@ -38,4 +39,21 @@ body{
 .sticky-img img{
     position: sticky;
     width: 50%;
+
+}
+
+.products{
+    margin-top: 200px;
+    margin-left: 45%;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    position: absolute;
+}
+.second-row__item{
+    margin-top: 100px;
+}
+
+.first-row__item img, .second-row__item img{
+    width: 450px;
+    margin: 20px 10px;
 }
